@@ -1,6 +1,6 @@
 package info.llanox.reme.mobile.util;
 
-import java.util.HashMap;
+
 
 
 import android.app.Activity;
