@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:background="#ffffff">
+
+
+
+
+	<LinearLayout 
+	android:id="@+id/dash" 
+	android:orientation="horizontal"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:gravity="center|center_vertical" 
+	android:layout_weight="3"
+	android:background="@color/bgcolor">
+
+		<LinearLayout 
+		    android:orientation="vertical" 
+		    android:id="@+id/west"
+			android:paddingLeft="10dip" 
+			android:paddingRight="10dip"
+			android:paddingTop="0dip" 
+			android:paddingBottom="0dip"
+			android:layout_height="fill_parent" 
+			android:layout_width="wrap_content"
+			android:gravity="center">
+
+			>
+
+			<LinearLayout 
+			    android:orientation="vertical" 
+			    android:id="@+id/boxRemainders"
+				android:layout_width="wrap_content" 
+				android:paddingLeft="10dip"
+				android:paddingRight="10dip" 
+				android:paddingTop="10dip"
+				android:paddingBottom="10dip" 
+				android:layout_height="wrap_content"
+				android:gravity="center">
+
+
+				<ImageButton 
+				    android:src="@drawable/messages"
+					android:layout_height="wrap_content" 
+					android:layout_width="wrap_content"
+					android:background="@color/bgcolor" android:id="@+id/btnRemainders">
+					
+				</ImageButton>
+
+				<TextView 
+				    android:id="@+id/tvReminders" 
+				    android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:text="@string/my_reminders"
+					android:textColor="@color/textcolor">
+				</TextView>
+
+
+
+			</LinearLayout>
+
+
+			<LinearLayout 
+			    android:orientation="vertical" 
+			    android:id="@+id/boxSchedule"
+				android:layout_width="wrap_content" 
+				android:paddingLeft="10dip"
+				android:paddingRight="10dip" 
+				android:paddingTop="10dip"
+				android:paddingBottom="10dip" 
+				android:layout_height="wrap_content"
+				android:gravity="center">
+
+				>
+				<ImageButton 
+				    android:src="@drawable/schedule"
+					android:layout_height="wrap_content" 
+					android:layout_width="wrap_content"
+					android:background="@color/bgcolor" android:id="@+id/btnSchedule">
+				</ImageButton>
+				<TextView 
+				    android:id="@+id/tvSchedule" 
+				    android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:textColor="@color/textcolor"
+					android:text="@string/schedule">
+				</TextView>
+
+			</LinearLayout>
+
+			<LinearLayout 
+		        android:orientation="vertical" 
+			    android:id="@+id/boxHistory"
+				android:layout_width="wrap_content" 
+				android:paddingLeft="10dip"
+				android:paddingRight="10dip" 
+				android:paddingTop="10dip"
+				android:paddingBottom="10dip" 
+				android:layout_height="wrap_content"
+				android:gravity="center">
+
+				<ImageButton 
+				    android:layout_height="wrap_content"
+					android:src="@drawable/history" 
+					android:layout_width="wrap_content"
+					android:id="@+id/btnHistory" android:background="@color/bgcolor">
+				</ImageButton>
+				<TextView 
+				    android:layout_height="wrap_content" 
+				    android:id="@+id/tvHistory"
+					android:layout_width="wrap_content" 
+					android:textColor="@color/textcolor"
+					android:text="@string/history">
+				</TextView>
+			</LinearLayout>
+
+
+
+		</LinearLayout>
+
+
+
+		<LinearLayout 
+		    android:orientation="vertical" 
+		    android:id="@+id/east"
+			android:paddingLeft="10dip" 
+			android:paddingRight="10dip"
+			android:paddingTop="0dip" 
+			android:paddingBottom="0dip"
+			android:layout_height="fill_parent" 
+			android:layout_width="wrap_content"
+			android:gravity="center">
+
+			>
+
+			<LinearLayout 
+			    android:orientation="vertical" 
+			    android:id="@+id/boxContacts"
+				android:layout_width="wrap_content" 
+				android:paddingLeft="10dip"
+				android:paddingRight="10dip" 
+				android:paddingTop="10dip"
+				android:paddingBottom="10dip" 
+				android:layout_height="wrap_content"
+				android:gravity="center">
+
+
+				<ImageButton android:src="@drawable/contacts"
+					android:layout_height="wrap_content" 
+					android:layout_width="wrap_content"
+					android:id="@+id/btnContacts" 
+					android:background="@color/bgcolor">
+				</ImageButton>
+
+				<TextView 
+				    android:id="@+id/tvContacts" 
+				    android:textColor="@color/textcolor"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:text="@string/my_contacts">
+				</TextView>
+
+
+
+			</LinearLayout>
+
+
+			<LinearLayout 
+			    android:orientation="vertical" 
+			    android:id="@+id/boxSetting"
+				android:layout_width="wrap_content" 
+				android:paddingLeft="10dip"
+				android:paddingRight="10dip" 
+				android:paddingTop="10dip"
+				android:paddingBottom="10dip" 
+				android:layout_height="wrap_content"
+				android:gravity="center">
+				>
+				<ImageButton 
+				    android:src="@drawable/setting"
+					android:layout_height="wrap_content" 
+					android:layout_width="wrap_content"
+					android:id="@+id/btnSetting" 
+					android:background="@color/bgcolor">
+				</ImageButton>
+
+				<TextView 
+				    android:id="@+id/tvSetting" 
+				    android:textColor="@color/textcolor"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:text="@string/setting">
+				</TextView>
+
+
+			</LinearLayout>
+
+
+			<LinearLayout 
+			    android:layout_height="wrap_content"
+				android:gravity="center" 
+				android:paddingBottom="10dip"
+				android:layout_width="wrap_content" 
+				android:paddingTop="10dip"
+				android:orientation="vertical" 
+				android:paddingLeft="10dip"
+				android:id="@+id/LinearLayout02" 
+				android:paddingRight="10dip">
+
+				<ImageButton 
+				android:layout_height="wrap_content"
+				android:src="@drawable/blank_space" 
+				android:layout_width="wrap_content"
+				android:id="@+id/ImageButton02"
+				android:background="@color/bgcolor">
+				</ImageButton>
+
+				<TextView 
+				android:layout_height="wrap_content" 
+				android:id="@+id/TextView02"
+				android:layout_width="wrap_content" 
+				android:textColor="@color/textcolor"
+				android:text="@string/blank_msg">
+				</TextView>
+			</LinearLayout>
+
+
+
+
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="my_reminders">Recordatorios</string>
+    <string name="my_contacts">Contactos</string>
+    <string name="setting">Configuración</string>
+    <string name="schedule">Programador</string>
+    <string name="history">Historial</string>
+    <string name="app_name">ReMe</string>
+    <string name="messages_groups">Grupos de Mensajes</string>
+    <string name="loading_splash">Cargando  ....</string>
+    <string name="welcome_msg">Para recordar lo esencial</string>
+    <string name="blank_msg"></string>
+</resources>
